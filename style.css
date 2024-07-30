@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "poppins",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    background-color: black;
+    color:white;
+    padding:15px;
+}
+li,ul,h1{
+    display: inline;
+}
+
+ul{
+    margin-left: 60%;
+}
+li{
+    color:grey;
+    cursor: pointer;
+}
+li:hover{
+    color:white;
+}
+input{
+    width:50%;
+    padding: 15px;
+}
+
+.searchbar{
+    margin:50px;
+    text-align:center;
+}
+.box{
+    border-color: grey;
+    border-width: 4px;
+    border-style: solid;
+    margin-left: 50px;
+    display: inline-block;
+    width: 200px;
+}
+
+.box:hover{
+    background-color:black;
+    color: white;
+}
+.product{
+    text-align: center;
+}
+.aboutus{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.container{
+    width:70%;
+    height: 450px;
+    display: flex;
+    justify-content:center;
+    gap:10px; 
+}
+.container img{
+    width:10%;
+    heigth:100%;
+    object-fit:cover;
+    border-radius:10px;
+    border:2px solid white;
+    transition:all ease-in-out 0.5s;
+
+}
+.container img:hover{
+width:23%;
+background-color: skyblue;
+
+}
+#c{
+    background: linear-gradient(to right,rgb(247, 50, 50),rgb(245, 107, 107));
+    z-index: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+marquee{
+    margin: top 100px;
+    }
+    p{
+        background-color: grey;
+        border-style:solid;
+        border-width:medium;
+        border-color:skyblue;
+
+    }
